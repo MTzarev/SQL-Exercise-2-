@@ -20,7 +20,6 @@ values
 (1, 'Sofia'),
 (2, 'Plovdiv'),
 (3, 'Varna');
-
 insert into `minions`
 values
 (1, 'Kevin', 22, 1),
