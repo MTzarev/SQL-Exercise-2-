@@ -188,3 +188,11 @@ Select `first_name`, `last_name`, `job_title`, `salary` from `employees`
 Order by `salary` desc;
 
 # Exercise 17
+
+SET SQL_SAFE_UPDATES = 1;
+UPDATE `employees`
+SET `salary` = `salary` * 1.1;
+-- WHERE `id` IS NOT NULL;
+Select `salary` from `employees`;
+Select * from `employees`;
+
