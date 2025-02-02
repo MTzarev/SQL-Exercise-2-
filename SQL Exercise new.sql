@@ -1,6 +1,5 @@
 Create DataBase `minions`; 
 Use `minions`;
-
 CREATE TABLE `minions` (
 	`id` int primary key auto_increment, 
     `name` Varchar (50) not null,
