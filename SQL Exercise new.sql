@@ -5,6 +5,7 @@ CREATE TABLE `minions` (
     `name` Varchar (50) not null,
     `age` int
 );
+
 Create Table `towns` (
 `town_id` INT Primary key Auto_increment, 
 `name` Varchar (30) not null
