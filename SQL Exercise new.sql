@@ -169,8 +169,7 @@ VALUES
  Select * from `departments`;
  Select * from `employees`;
  
- 
- -- Exercise 15
+  -- Exercise 15
  
  Select * From `towns`
  order by `name` ;
