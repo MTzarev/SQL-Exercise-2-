@@ -14,7 +14,6 @@ ADD COLUMN `town_id`INT,
 ADD Constraint fk_minions_towns
 FOREIGN KEY (`town_id`) 
 References `towns`(`id`);
-
 insert into `towns`
 values 
 (1, 'Sofia'),
